@@ -1,0 +1,18 @@
+[
+    {"id":"1","name":"솔잎혹파리","serious":"1","category":"1","main_img":"'img/Insect_img/main1.png'","marker_img":"'img/Marker/fly/fly_P.png'","width":"77","height":"64","short_line":"<span><br><br><br><br><br>출현 시기: 5월 ~ 9월<hr>연 1회 발생하며, 지피물 밑이나 깊이 1~2cm의 토양 속에서 유충으로 월동한다. <br><br>유충이 솔잎 기부에 벌레혹을 형성하고, 그 속에서 수액을 빨아 먹어 솔잎이 건전한 잎보다 짧아지며, 가을에 갈색으로 변색되어 말라 죽는다.</span>"},
+    
+    {"id":"2","name":"솔껍질깍지벌레","serious":"1","category":"2","main_img":"'img/Insect_img/main2.png'","marker_img":"'img/Marker/fly/fly_B.png'","width":"77","height":"64","short_line":"<span><br><br><br><br><br>출현 시기: 4월 ~ 5월<hr>연 1회 발생하며 후약충으로 월동한다. 성충은 4~5월에 나타나 가지에 알주머니를 만들어 산란한다.<br>성충과 약충이 가지에 기생하며 수액을 빨아 먹어 잎이 갈색으로 변하며, 3~5월에 주로 수관의 아랫부분부터 변색되면서 말라 죽는다.</span>"}
+    ,
+    {"id":"3","name":"솔나방","serious":"1","category":"3","main_img":"'img/Insect_img/main3.png'","marker_img":"'img/Marker/moth/moth_B.png'","width":"50","height":"64","short_line":"<span><br><br><br><br><br>출현 시기: 4월 ~ 6월, 9월 ~ 10월<hr>반적으로 유충을 송충이라고 부른다.<br>유충은 소나무류 ·솔송나무 ·전나무의 잎을 먹는 산림해충이다.</span>"}
+    ,
+    {"id":"4","name":"미국흰불나방","serious":"3","category":"4","main_img":"'img/Insect_img/main4.png'","marker_img":"'img/Marker/moth/moth_O.png'","width":"50","height":"64","short_line":"<span><br><br><br><br><br>출현 시기: 6월 ~ 9월<hr>보통 연 2회 발생하며 수피 틈이나 지피물 밑에서 번데기로 월동한다.<br><br>유충이 어릴 때는 실을 토해 잎을 싸고 집단으로 모여서 갉아 먹다가 5령기 이후에는 분산해 잎맥을 제외한 잎 전체를 갉아 먹는다.</span>"}
+    ,
+    {"id":"5","name":"오리나무잎벌레","serious":"2","category":"5","main_img":"'img/Insect_img/main5.png'","marker_img":"'img/Marker/silverfish/silverfish_Y.png'","width":"61","height":"75","short_line":"<span><br><br><br><br><br>출현 시기: 5월 ~ 7월<hr>연 1회 발생하고 성충으로서 낙엽 속이나 흙 속에서 겨울을 지낸다.<br><br>성충은 4월 말부터 나타나 오리나무 잎을 갉아먹는다. 수관 아래의 잎을 먼저 갉아먹고 점차 위로 올라가며 갉아먹는다.</span>"}
+    ,
+    {"id":"6","name":"잣나무넓적잎벌","serious":"1","category":"6","main_img":"'img/Insect_img/main6.png'","marker_img":"'img/Marker/millipede/millipede_B.png'","width":"50","height":"63","short_line":"<span><br><br><br><br><br>출현 시기: 6월 ~ 8월<hr>잣나무림에 대발생하여 잎을 가해하므로 임목의 생장 감소는 물론 피해가 3∼4년 계속되면서 고사된다.<br>6월 중순∼8월 상순에 성충으로 우화하며 우화최성기는 7월 상순∼하순으로 지역 및 임지환경에 따라 차이가 있다.</span>"}
+    ,
+    {"id":"7","name":"솔알락명나방","serious":"1","category":"7","main_img":"'img/Insect_img/main7.png'","marker_img":"'img/Marker/moth/moth_Y.png'","width":"77","height":"64","short_line":"<span><br><br><br><br><br>출현 시기: 5월 ~ 6월<hr>구과속의 가해부위에 벌레 똥을 채워놓고 외부로도 똥을 배출하여 구과 표면에 붙여 놓으며 신초에도 피해를 준다.<br>8∼9월에 노숙한 유충은 흙속에 고치를 짓고 월동하나 7월 이후에 우화하여 산란한 것은 알 또는 어린 유충으로 구과에서 월동한다.</span>"}
+    ,
+    {"id":"8","name":"소나무좀","serious":"1","category":"9","main_img":"'img/Insect_img/main9.png'","marker_img":"'img/Marker/silverfish/silverfish_O.png'","width":"61","height":"75","short_line":"<span><br><br><br><br><br>출현 시기: 3월, 4월, 7월 ~ 9월<hr>수세가 쇠약한 벌목, 고사목에 기생한다.<br>월동성충이 수피를 뚫고 들어가 산란한 알에서 부화한 유충이 수피 밑을 식해한다. 쇠약한 나무나 벌채한 나무에 기생하지만 대발생할때는 건전한 나무도 가해하여 고사시키기도 한다.</span>"}
+    
+]

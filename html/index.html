@@ -29,7 +29,6 @@
       <h1 style="color:white; text-align:center;">카테고리</h1>
       <hr style="margin-bottom: 10px; margin-left: 10px; margin-right: 10px;">
       <div style="margin-left:20px; color:white;">
-
         <br><br><input id="check_0" type="radio" name="check" value="0" onclick="javascript:show(0);" checked><label for="check_0"> 전체보기</label>
         <br><br><input id="check_1" type="radio" name="check" value="1" onclick="javascript:show(1);"><label for="check_1"> 솔잎혹파리</label>
         <br><br><input id="check_2" type="radio" name="check" value="2" onclick="javascript:show(2);"><label for="check_2"> 솔껍질깍지벌레</label>
@@ -39,7 +38,6 @@
         <br><br><input id="check_6" type="radio" name="check" value="6" onclick="javascript:show(6);"><label for="check_6"> 잣나무넓적잎벌</label>
         <br><br><input id="check_7" type="radio" name="check" value="7" onclick="javascript:show(7);"><label for="check_7"> 솔알락명나방</label>
         <br><br><input id="check_9" type="radio" name="check" value="9" onclick="javascript:show(9);"><label for="check_9"> 소나무좀</label>
-
       </div>
     </nav>
 
@@ -51,12 +49,14 @@
     </div>
 
     <!-- 공백 추가 -->
-    <div class="copy">
+    <div id="i" class="copy">
       <br>
     </div>
 
     <!-- js파일 가져오기 -->
     <script src="js/main.js"></script>
+    <!-- json파일 내용 불러오기 (데이터 추출 기능 제작 필요) -->
+    <!-- <script src="js/details_load.js"></script> -->
 
   </body>
 </html>
