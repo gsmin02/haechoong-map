@@ -6,21 +6,25 @@ function load_data() {
 
 load_data().then((items) => {
     var key_name = 'name';
-    var name1 = JSON.stringify(items[0][key_name]).replace(/\"/gi, "");
-    var name2 = JSON.stringify(items[1][key_name]).replace(/\"/gi, "");
-    var name3 = JSON.stringify(items[2][key_name]).replace(/\"/gi, "");
-    var name4 = JSON.stringify(items[3][key_name]).replace(/\"/gi, "");
-    var name5 = JSON.stringify(items[4][key_name]).replace(/\"/gi, "");
-    var name6 = JSON.stringify(items[5][key_name]).replace(/\"/gi, "");
-    var name7 = JSON.stringify(items[6][key_name]).replace(/\"/gi, "");
-    var name8 = JSON.stringify(items[7][key_name]).replace(/\"/gi, "");
-
-    document.getElementById('id_name_1').innerHTML = name1;
-    document.getElementById('id_name_2').innerHTML = name2;
-    document.getElementById('id_name_3').innerHTML = name3;
-    document.getElementById('id_name_4').innerHTML = name4;
-    document.getElementById('id_name_5').innerHTML = name5;
-    document.getElementById('id_name_6').innerHTML = name6;
-    document.getElementById('id_name_7').innerHTML = name7;
-    document.getElementById('id_name_8').innerHTML = name8;
+    var name = {};
+    for(var i = 0; i < Object.keys(items).length; i++) {
+        name[i] = JSON.stringify(items[i][key_name]).replace(/\"/gi, "");
+    }
+    
+    document.getElementById('id_name_1').innerHTML = name[0];
+    document.getElementById('id_name_2').innerHTML = name[1];
+    document.getElementById('id_name_3').innerHTML = name[2];
+    document.getElementById('id_name_4').innerHTML = name[3];
+    document.getElementById('id_name_5').innerHTML = name[4];
+    document.getElementById('id_name_6').innerHTML = name[5];
+    document.getElementById('id_name_7').innerHTML = name[6];
+    document.getElementById('id_name_8').innerHTML = name[7];
 })
+
+/* test code
+for(var i = 0; i < Object.keys(items).length; i++) {
+        name[i] = JSON.stringify(items[i][key_name]).replace(/\"/gi, "");
+        id[i] = "id_name_" + i.toString();
+        document.getElementById(id[i]).innerHTML = name[i];
+    }
+*/
